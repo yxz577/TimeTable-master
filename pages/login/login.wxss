@@ -1,0 +1,28 @@
+/* pages/login/login.wxss */
+.login-view{
+    margin: 25rpx;
+    margin: 25rpx;
+
+}
+
+.input-background{
+    
+}
+
+.login-input{
+    margin: 5rpx;
+    border: 3rpx solid lightgrey;
+    border-radius: 10rpx;
+    background-color: white;
+}
+
+.button-view{
+    display: flex;
+    flex-direction: row;
+}
+
+.login-button{
+    width: 202rpx;
+    margin: 25rpx;
+    font-size: small;
+}

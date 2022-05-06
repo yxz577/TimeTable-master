@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="my-view">
+    <navigator class="my-navigator" open-type="navigate" url="../courses/courses">课程表</navigator>
+    <navigator class="my-navigator" open-type="navigate" url="../login/login">我的账户</navigator>
+</view>

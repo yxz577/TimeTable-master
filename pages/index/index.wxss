@@ -1,0 +1,11 @@
+/**index.wxss**/
+.my-view{
+    margin-top: 15rpx;
+}
+
+.my-navigator{
+    padding: 30rpx;
+    border: 3rpx solid lightgrey;
+    background-color:rgb(243, 241, 241);
+    text-align: center;
+}
