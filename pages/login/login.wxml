@@ -2,11 +2,11 @@
 <form catchsubmit="formSubmit" catchreset="formReset">
 <view class="login-view">
     学号:
-    <input class="login-input" name="account" type="number" placeholder="请输入学号"/>
+    <input class="login-input" name="account" type="number" bindinput="accountInput" placeholder="请输入学号"/>
 </view>
 <view class="login-view">
     密码:
-    <input class="login-input" name="pwd" type="text" password placeholder="请输入密码"/>
+    <input class="login-input" name="pwd" type="text" bindinput="pwdInput" password placeholder="请输入密码"/>
 </view>
 <view class="button-view">
     <view>
