@@ -1,9 +1,10 @@
 /**index.wxss**/
 .my-view{
-    margin-top: 15rpx;
+    margin-top: 3rpx;
 }
 
 .my-navigator{
+    margin-top: 10rpx;
     padding: 30rpx;
     border: 3rpx solid lightgrey;
     background-color:rgb(243, 241, 241);

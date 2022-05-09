@@ -25,12 +25,14 @@ Page({
   /**
    * form 表单 保存、重置操作
    */
-  loginTest() {
+  loginTest(e) {
     console.log("test-login!")
-    console.log(this.data.account)
-    console.log(this.data.password)
+    //console.log(this.data.account)
+    //console.log(this.data.password)
     var that = this
-
+    wx.showLoading({
+      title: '测试中',
+    })
     wx.request({
       //请求接口的地址
       url: "http://dcac.top:5000/test-login",
@@ -44,10 +46,34 @@ Page({
       method: "POST",
       success: function (res) {
         console.log(res.data);
-        that.setData({code: res.data.code})
+        that.setData({result: res.data.code});
+        wx.hideLoading();
+        if(res.data.code==0){
+          wx.showModal({
+            title:'成功',
+            content:'账号和密码正确！',
+            showCancel:false,
+          })
+        }else if(res.data.code==1){
+          wx.showModal({
+            title:'失败',
+            content:'账号或密码错误！',
+            showCancel:false,
+          });
+          console.log(e);
+          this.formReset(e);
+        }
+        
         // term_begin_day = new Date(res.data["data"])
       },
-      fail: function (err) {console.log(err);}, //请求失败
+      fail: function (err) { //请求失败
+        console.log(err);
+        wx.hideLoading();
+        wx.showModal({
+          title: '失败',
+          content:'网络错误！'
+        })
+      },
       complete: function () {} //请求完成后执行的函数
     })
   },

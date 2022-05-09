@@ -1,23 +1,22 @@
 <!--pages/login/login.wxml-->
 <form catchsubmit="formSubmit" catchreset="formReset">
-<view class="login-view">
-    学号:
-    <input class="login-input" name="account" type="number" bindinput="accountInput" placeholder="请输入学号"/>
-</view>
-<view class="login-view">
-    密码:
-    <input class="login-input" name="pwd" type="text" bindinput="pwdInput" password placeholder="请输入密码"/>
-</view>
-<view class="button-view">
-    <view>
-        <button class="login-button" bindtap="loginTest">测试</button>
-    </view>
-    <view>
-        <button class="login-button" formType="submit">保存</button>
-    </view>
-    <view>
-        <button class="login-button" formType="reset">重置</button>
-    </view>
-    
-</view>
+  <view class="login-view">
+      学号:
+      <input class="login-input" name="account" type="number" bindinput="accountInput" placeholder="请输入学号"/>
+  </view>
+  <view class="login-view">
+      密码:
+      <input class="login-input" name="pwd" type="text" bindinput="pwdInput" password placeholder="请输入密码"/>
+  </view>
+  <view class="button-view">
+      <view>
+          <button class="login-button" bindtap="loginTest">测试</button>
+      </view>
+      <view>
+          <button class="login-button" formType="submit">保存</button>
+      </view>
+      <view>
+          <button class="login-button" formType="reset">重置</button>
+      </view>      
+  </view>
 </form>
