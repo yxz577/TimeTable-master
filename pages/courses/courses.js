@@ -1,7 +1,7 @@
 // index.js
 // pages/recipe/recipelist/recipelist.js
 var util = require("../../utils/time-util")
-var pastData = require("../../utils/data")
+var pastData = require("../../utils/data");
 Page({
  
   /**
@@ -10,48 +10,30 @@ Page({
    * timeBean 传递给组件的数据，数据的格式在一开始的工具类中明确
    */
   data: {
-    selectWeek:0,
-    week:0,
-    timeBean:{},
+    selectWeek: 0,
+    week: 0,
+    timeBean: {},
     colorArrays: [ "#85B8CF", "#90C652", "#D8AA5A", "#FC9F9D", "#0A9A84", "#61BC69", "#12AEF3", "#E29AAD"],
     wlist: {
-        type:Array,
-        value:[]
-    }
-    // [
-    //     [
-    //     {"DayOfWeek": 1, "begin": 1, "duration": 2, "name": "高等数学高等数学高等数学", "location": "B-316"},
-    //     {"DayOfWeek": 1, "begin": 5, "duration": 2, "name": "高等数学", "location": "B-316"}
-    //     ],
-    //     [
-    //     {"DayOfWeek": 2, "begin": 3, "duration": 2, "name": "高等数学", "location": "B-316"},
-    //     {"DayOfWeek": 3, "begin": 1, "duration": 2, "name": "高等数学", "location": "B-316"}
-    //     ]
-    // ]
+      type: Array,
+      value: []
+    },
+    termStartDay: ''
   },
  
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var timeTable = wx.getStorageSync('timetable')
+    var termStartDay = wx.getStorageSync('term_start_data')
+    var startDay = new Date(termStartDay);
+    var delta = new Date() - startDay
+    delta = parseInt(delta / 1000 / 60 / 60 / 24 / 7) 
     this.setData({
-        wlist:pastData.postData
+      wlist: timeTable,
+      week: delta
     });
-    console.log(this.data.wlist[0]);
-    // var that = this;
-    // console.log("util.request");
-    // wx.request({
-    //   url: '../../utils/courses.json',
-    //   header:{
-    //       'content-type':'application/json'
-    //   },
-    //   success:function(res){
-    //       console.log(res.data)
-    //       that.setData({
-    //           //wlist:res.data.result[0]
-    //       })
-    //   }
-    // });
   },
     
   /**

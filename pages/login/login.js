@@ -1,4 +1,6 @@
 // pages/login/login.js
+const { postData } = require("../../utils/data");
+var pastData = require("../../utils/data");
 Page({
 
   /**
@@ -45,8 +47,6 @@ Page({
       },
       method: "POST",
       success: function (res) {
-        console.log(res.data);
-        that.setData({result: res.data.code});
         wx.hideLoading();
         if(res.data.code==0){
           wx.showModal({
@@ -54,20 +54,20 @@ Page({
             content:'账号和密码正确！',
             showCancel:false,
           })
+          wx.setStorageSync('login_success', true)
         }else if(res.data.code==1){
+          wx.setStorageSync('login_success', false)
           wx.showModal({
             title:'失败',
             content:'账号或密码错误！',
             showCancel:false,
           });
           console.log(e);
-          this.formReset(e);
         }
-        
-        // term_begin_day = new Date(res.data["data"])
       },
       fail: function (err) { //请求失败
         console.log(err);
+        wx.setStorageSync('login_success', false)
         wx.hideLoading();
         wx.showModal({
           title: '失败',
@@ -80,6 +80,40 @@ Page({
 
   formSubmit(e) {
     console.log('form发生了submit事件，携带数据为：', e.detail.value)
+    wx.setStorageSync('username', this.data.account)
+    wx.setStorageSync('password', this.data.password)
+
+    wx.request({
+      url: "http://dcac.top:5000/test-login",
+      data: {
+        username: this.data.account,
+        password: this.data.password,
+      },
+      header: {
+        'Content-Type' : 'application/x-www-form-urlencoded'
+      },
+      method: "POST",
+      success: function (res) {
+        if(res.data.code==0){
+          wx.setStorageSync('login_success', true)
+        }else if(res.data.code==1){
+          wx.setStorageSync('login_success', false)
+        }
+      },
+      fail: function (err) { wx.setStorageSync('login_success', false)},
+      complete: function () {} //请求完成后执行的函数
+    })
+
+    if (wx.getStorageSync('login_success')) {
+      pastData.getTimeTable()
+      pastData.getTermStartDay()
+    }
+    
+    wx.showModal({
+      title:'成功',
+      content:'保存学号与密码成功！',
+      showCancel:false,
+    })
   },
 
   formReset(e) {

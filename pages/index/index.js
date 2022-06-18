@@ -1,5 +1,7 @@
 //index.js
 //获取应用实例
+const { postData } = require("../../utils/data")
+var pastData = require("../../utils/data")
 var app = getApp()
 Page({
   data: {
@@ -14,5 +16,10 @@ Page({
 
   onLoad: function () {
     console.log('onLoad')
+    var login_success = wx.getStorageSync('login_success')
+    if (login_success) {
+      pastData.getTimeTable()
+      pastData.getTermStartDay()
+    }
   }
 })

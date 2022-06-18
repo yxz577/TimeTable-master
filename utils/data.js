@@ -1,593 +1,88 @@
 var localdata={
-    "list": [
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5c31\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 2,
-            "location": "B-538",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5c31\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 2,
-            "location": "B-538",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u5b66\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 5,
-            "location": "A-205",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 6,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5c31\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 2,
-            "location": "B-538",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }, {
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 6,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5c31\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 2,
-            "location": "B-538",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u5b66\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 5,
-            "location": "\u5728\u7ebf\u5bfc\u5b66",
-            "begin": 7,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u5c31\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 7,
-            "location": "B-538",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 7,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 7,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 7,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u5f62\u52bf\u4e0e\u653f\u7b56(\u2165)",
-            "DayOfWeek": 1,
-            "location": "B-443",
-            "begin": 5,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5b66\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 5,
-            "location": "A-205",
-            "begin": 5,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5c31\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 2,
-            "location": "B-538",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u5f62\u52bf\u4e0e\u653f\u7b56(\u2165)",
-            "DayOfWeek": 1,
-            "location": "B-443",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5c31\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 2,
-            "location": "B-538",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u5f62\u52bf\u4e0e\u653f\u7b56(\u2165)",
-            "DayOfWeek": 1,
-            "location": "B-443",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f51\u7edc\u5e94\u7528\u7a0b\u5e8f\u8bbe\u8ba1",
-            "DayOfWeek": 1,
-            "location": "B-601",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5c31\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 2,
-            "location": "B-538",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8f6f\u4ef6\u5de5\u7a0b",
-            "DayOfWeek": 2,
-            "location": "B-706",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u5f62\u52bf\u4e0e\u653f\u7b56(\u2165)",
-            "DayOfWeek": 1,
-            "location": "B-443",
-            "begin": 5,
-            "duration": 2
-        }, {
-            "name": "\u5b66\u4e1a\u6307\u5bfc",
-            "DayOfWeek": 5,
-            "location": "\u5728\u7ebf\u5bfc\u5b66",
-            "begin": 7,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u5206\u5e03\u5f0f\u8ba1\u7b97",
-            "DayOfWeek": 1,
-            "location": "B-532",
-            "begin": 1,
-            "duration": 2
-        }, {
-            "name": "\u8ba1\u7b97\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-437",
-            "begin": 7,
-            "duration": 2
-        }],
-        [{
-            "name": "\u7f16\u8bd1\u539f\u7406",
-            "DayOfWeek": 5,
-            "location": "B-703",
-            "begin": 3,
-            "duration": 2
-        }, {
-            "name": "\u4eba\u5de5\u667a\u80fd\u5bfc\u8bba",
-            "DayOfWeek": 2,
-            "location": "B-412",
-            "begin": 1,
-            "duration": 2
-        }],
-        [],
-        [],
-        [],
-        [],
-        []
-    ]
+    getTimeTable(e) {
+      console.log("get time table!")
+      var that = this
+      wx.showLoading({
+        title: 'loading',
+      })
+      wx.request({
+        //请求接口的地址
+        url: "http://dcac.top:5000/timetable",
+        data: {
+          username: wx.getStorageSync("username"),
+          password: wx.getStorageSync("password"),
+        },
+        header: {
+          'Content-Type' : 'application/x-www-form-urlencoded'
+        },
+        method: "POST",
+        success: function (res) {
+          console.log(res.data)
+          wx.hideLoading();
+          if(res.data.code != 0){
+            wx.showModal({
+              title:'失败',
+              content:'账号或密码错误！',
+              showCancel:false,
+            })
+          } else {
+            wx.setStorageSync('timetable', res.data.data)
+          }
+        },
+        fail: function (err) { //请求失败
+          console.log(err);
+          wx.hideLoading();
+          wx.showModal({
+            title: '失败',
+            content:'网络错误！'
+          })
+        },
+        complete: function () {wx.hideLoading();} //请求完成后执行的函数
+      })
+    },
+
+    getTermStartDay(e) {
+      console.log("get term-start-day!")
+      var that = this
+      wx.showLoading({
+        title: 'loading',
+      })
+      wx.request({
+        //请求接口的地址
+        url: "http://dcac.top:5000/term-start-day",
+        data: {
+          username: wx.getStorageSync("username"),
+          password: wx.getStorageSync("password"),
+        },
+        header: {
+          'Content-Type' : 'application/x-www-form-urlencoded'
+        },
+        method: "POST",
+        success: function (res) {
+          if(res.data.code != 0){
+            wx.showModal({
+              title:'失败',
+              content:'账号或密码错误！',
+              showCancel:false,
+            })
+          } else {
+            wx.setStorageSync('term_start_data', res.data.data)
+          }
+        },
+        fail: function (err) { //请求失败
+          console.log(err);
+          wx.showModal({
+            title: '失败',
+            content:'网络错误！'
+          })
+        },
+        complete: function () {wx.hideLoading();} //请求完成后执行的函数
+      })
+    },
 }
 
 module.exports = {
-    postData:localdata.list
+    postData: localdata.list,
+    getTimeTable: localdata.getTimeTable,
+    getTermStartDay: localdata.getTermStartDay
 }
